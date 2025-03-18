@@ -99,3 +99,17 @@ projectile_motion:
       shoot_cmd_topic: "cmd_shoot"
       solver_type: "gravity"                    # projectile solve method: gravity / gaf
       # friction: 0.001                         # Air resistance factor if use GAF solver
+
+rosbag_recorder:
+  ros__parameters:
+    bag_prefix: "rosbag_infantry_"
+    topics: [
+      "/serial/gimbal_joint_state",
+      "/front_industrial_camera/image",
+      "/front_industrial_camera/camera_info",
+    ]
+    storage_id: "sqlite3"
+    record_all: False
+    disable_discovery: False
+    start_recording_immediately: False
+    max_bagfile_duration: 15
