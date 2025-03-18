@@ -65,7 +65,7 @@ def generate_launch_description():
 
     declare_detector_cmd = DeclareLaunchArgument(
         "detector",
-        default_value="opencv",
+        default_value="openvino",
         description="Type of detector to use (option: 'opencv', 'openvino')",
     )
 
@@ -83,12 +83,6 @@ def generate_launch_description():
         "use_sim_time",
         default_value="False",
         description="Use simulation (Gazebo) clock if true",
-    )
-
-    declare_detector_cmd = DeclareLaunchArgument(
-        "detector",
-        default_value="opencv",
-        description="Type of detector to use (option: 'opencv', 'openvino', 'tensorrt')",
     )
 
     declare_params_file_cmd = DeclareLaunchArgument(
