@@ -1,0 +1,214 @@
+[INFO] [launch]: All log files can be found below /tmp/2025-05-06-00-59-51-291776-nvida2-NUC12WSKi7-92770
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joint_state_publisher-1]: process started with pid [92783]
+[INFO] [robot_state_publisher-2]: process started with pid [92785]
+[INFO] [rm_serial_node-3]: process started with pid [92787]
+[INFO] [gimbal_manager_node-4]: process started with pid [92789]
+[INFO] [component_container_isolated-5]: process started with pid [92791]
+[INFO] [composable_recorder_node-6]: process started with pid [92793]
+[composable_recorder_node-6] stdin is not a terminal device. Keyboard handling disabled.[0m[INFO] [1746464391.589747462] [rosbag_recorder]: Press SPACE for pausing/resuming[0m
+[gimbal_manager_node-4] [0m[INFO] [1746464391.589824628] [gimbal_manager]: Start GimbalManagerNode![0m
+[composable_recorder_node-6] [0m[INFO] [1746464391.589868427] [rosbag_recorder]: recording topic: /serial/gimbal_joint_state[0m
+[composable_recorder_node-6] [0m[INFO] [1746464391.589880576] [rosbag_recorder]: recording topic: /front_industrial_camera/image[0m
+[composable_recorder_node-6] [0m[INFO] [1746464391.589885951] [rosbag_recorder]: recording topic: /front_industrial_camera/camera_info[0m
+[composable_recorder_node-6] [0m[INFO] [1746464391.590495430] [rosbag_recorder]: recorder node started up![0m
+[rm_serial_node-3] [0m[INFO] [1746464391.592282557] [IoContext::IoContext]: Thread(s) Created: 2[0m
+[rm_serial_node-3] [0m[INFO] [1746464391.592387065] [rm_serial_ext]: Start EXTSerialDriver![0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592686761] [robot_state_publisher]: got segment armor_0[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592784188] [robot_state_publisher]: got segment armor_1[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592795426] [robot_state_publisher]: got segment armor_2[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592799376] [robot_state_publisher]: got segment armor_3[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592803741] [robot_state_publisher]: got segment armor_support_frame_0[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592809098] [robot_state_publisher]: got segment armor_support_frame_1[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592812798] [robot_state_publisher]: got segment armor_support_frame_2[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592816395] [robot_state_publisher]: got segment armor_support_frame_3[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592820258] [robot_state_publisher]: got segment base_footprint[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592823791] [robot_state_publisher]: got segment chassis[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592828547] [robot_state_publisher]: got segment front_industrial_camera[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592832390] [robot_state_publisher]: got segment front_industrial_camera_optical_frame[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592836564] [robot_state_publisher]: got segment front_left_wheel[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592841302] [robot_state_publisher]: got segment front_right_wheel[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592845032] [robot_state_publisher]: got segment gimbal_pitch[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592849404] [robot_state_publisher]: got segment gimbal_pitch_odom[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592853782] [robot_state_publisher]: got segment gimbal_yaw[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592857497] [robot_state_publisher]: got segment gimbal_yaw_odom[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592861419] [robot_state_publisher]: got segment light_indicator[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592864243] [robot_state_publisher]: got segment rear_left_wheel[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592867070] [robot_state_publisher]: got segment rear_right_wheel[0m
+[robot_state_publisher-2] [0m[INFO] [1746464391.592869653] [robot_state_publisher]: got segment speed_monitor[0m
+[rm_serial_node-3] [31m[ERROR] [1746464391.597307454] [rm_serial_ext]: Error creating serial port: /dev/ttyACM0 - open: No such file or directory[0m
+[rm_serial_node-3] terminate called after throwing an instance of 'std::exception'
+[rm_serial_node-3]   what():  std::exception
+[ERROR] [rm_serial_node-3]: process has died [pid 92787, exit code -6, cmd '/home/nvida2/Downloads/pb2025_infantry_ws/install/rm_serial/lib/rm_serial/rm_serial_node --ros-args --log-level info --ros-args -r __node:=rm_serial_ext -r __ns:=/ -r /tf:=tf -r /tf_static:=tf_static'].
+[component_container_isolated-5] [0m[INFO] [1746464391.797756954] [rm_vision_container]: Load Library: /home/nvida2/Downloads/pb2025_infantry_ws/install/hik_camera_ros2_driver/lib/libhik_camera_ros2_driver.so[0m
+[component_container_isolated-5] [0m[INFO] [1746464391.800896589] [rm_vision_container]: Found class: rclcpp_components::NodeFactoryTemplate<hik_camera_ros2_driver::HikCameraRos2DriverNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464391.800923054] [rm_vision_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<hik_camera_ros2_driver::HikCameraRos2DriverNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464391.803477565] [hik_camera_ros2_driver]: Starting HikCameraRos2DriverNode![0m
+[component_container_isolated-5] [0m[INFO] [1746464391.805948436] [hik_camera_ros2_driver]: Found camera count = 1[0m
+[joint_state_publisher-1] [0m[INFO] [1746464392.148490386] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.393266594] [hik_camera_ros2_driver]: Acquisition frame rate: 165.000000[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.394293002] [hik_camera_ros2_driver]: Exposure time: 1500.000000[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.396026895] [hik_camera_ros2_driver]: Gain: 12.000000[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.398171004] [hik_camera_ros2_driver]: ADC Bit Depth set to Bits_8[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.399605965] [hik_camera_ros2_driver]: Pixel Format set to BayerRG8[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.458097720] [hik_camera_ros2_driver]: camera calibration URL: package://pb2025_infantry_bringup/params/camera_info.yaml[0m
+[component_container_isolated-5] [33m[WARN] [1746464393.458522090] [hik_camera_ros2_driver]: [front_industrial_camera] does not match narrow_stereo in file /home/nvida2/Downloads/pb2025_infantry_ws/install/pb2025_infantry_bringup/share/pb2025_infantry_bringup/params/camera_info.yaml[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.458626133] [hik_camera_ros2_driver]: Publishing image![0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/hik_camera_ros2_driver' in container '/rm_vision_container'
+[component_container_isolated-5] [0m[INFO] [1746464393.460903318] [rm_vision_container]: Load Library: /home/nvida2/Downloads/pb2025_infantry_ws/install/armor_detector_openvino/lib/libarmor_detector_openvino.so[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.469851635] [rm_vision_container]: Found class: rclcpp_components::NodeFactoryTemplate<rm_auto_aim::ArmorDetectorOpenvinoNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.469928814] [rm_vision_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<rm_auto_aim::ArmorDetectorOpenvinoNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.472550178] [armor_detector_openvino]: Initializing armor_detector_openvino with intra-process communication enabled[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.472978531] [armor_detector_openvino]: Model path: /home/nvida2/Downloads/pb2025_infantry_ws/install/armor_detector_openvino/share/armor_detector_openvino/model/opt-1208-001.onnx[0m
+[component_container_isolated-5] Successfully loaded number classifier model from /home/nvida2/Downloads/pb2025_infantry_ws/install/armor_detector_openvino/share/armor_detector_openvino/model/mlp.onnx
+[component_container_isolated-5] Successfully loaded 9 labels from /home/nvida2/Downloads/pb2025_infantry_ws/install/armor_detector_openvino/share/armor_detector_openvino/model/label.txt
+[component_container_isolated-5] [0m[INFO] [1746464393.630715490] [armor_detector_openvino]: camera_name: front_industrial_camera, transport_type: raw[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.630990550] [armor_detector_openvino]: Setup debug_mode handler[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.633000931] [armor_detector_openvino]: Setup ROS subs pubs[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.634987713] [armor_detector_openvino]: Subscribing to /front_industrial_camera/image[0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/armor_detector_openvino' in container '/rm_vision_container'
+[component_container_isolated-5] [0m[INFO] [1746464393.635007806] [armor_detector_openvino]: Initializing finished.[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.636539115] [rm_vision_container]: Load Library: /home/nvida2/Downloads/pb2025_infantry_ws/install/armor_tracker/lib/libarmor_tracker.so[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.638549036] [rm_vision_container]: Found class: rclcpp_components::NodeFactoryTemplate<rm_auto_aim::ArmorTrackerNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.638580905] [rm_vision_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<rm_auto_aim::ArmorTrackerNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.640265546] [armor_detector_openvino]: Camera intrinsic: 2406.56 0 747.932 0 2409.36 548.457 0 0 1 
+[component_container_isolated-5] camera distortion: -0.022929 -0.079355 0.00084 0.002737 0[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.642010124] [armor_tracker]: Starting TrackerNode![0m
+[component_container_isolated-5] [33m[WARN] [1746464393.647989971] [armor_tracker]: New subscription discovered on topic '/tracker/target', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY[0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/armor_tracker' in container '/rm_vision_container'
+[component_container_isolated-5] [0m[INFO] [1746464393.650223772] [rm_vision_container]: Load Library: /home/nvida2/Downloads/pb2025_infantry_ws/install/projectile_motion/lib/libprojectile_motion.so[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.651838861] [rm_vision_container]: Found class: rclcpp_components::NodeFactoryTemplate<projectile_motion::ProjectileMotionNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.651874693] [rm_vision_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<projectile_motion::ProjectileMotionNode>[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.656330929] [projectile_motion]: Projectile motion solver type: gravity[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.661021923] [projectile_motion]: Projectile motion node initialized.[0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/projectile_motion' in container '/rm_vision_container'
+[INFO] [rm_serial_node-3]: process started with pid [92942]
+[rm_serial_node-3] [0m[INFO] [1746464393.706842910] [IoContext::IoContext]: Thread(s) Created: 2[0m
+[rm_serial_node-3] [0m[INFO] [1746464393.706917349] [rm_serial_ext]: Start EXTSerialDriver![0m
+[rm_serial_node-3] [31m[ERROR] [1746464393.712377760] [rm_serial_ext]: Error creating serial port: /dev/ttyACM0 - open: No such file or directory[0m
+[rm_serial_node-3] terminate called after throwing an instance of 'std::exception'
+[rm_serial_node-3]   what():  std::exception
+[component_container_isolated-5] [0m[INFO] [1746464393.741662972] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.638 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.754662124] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.645 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.760630529] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.651 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.769251328] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.669 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.771437965] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.657 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.779588672] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.663 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.786422463] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.681 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.793846831] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.675 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.803336840] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.687 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.808294312] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.693 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.816119751] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.700 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.821340948] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.705 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.828240782] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.726 for reason 'discarding message because the queue is full'[0m
+[ERROR] [rm_serial_node-3]: process has died [pid 92942, exit code -6, cmd '/home/nvida2/Downloads/pb2025_infantry_ws/install/rm_serial/lib/rm_serial/rm_serial_node --ros-args --log-level info --ros-args -r __node:=rm_serial_ext -r __ns:=/ -r /tf:=tf -r /tf_static:=tf_static'].
+[component_container_isolated-5] [0m[INFO] [1746464393.835248471] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.712 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.840600450] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.731 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.851616002] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.718 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.859260504] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.737 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.861425911] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.742 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.868996033] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.749 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.874929593] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.766 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.880996697] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.760 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.887446087] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.778 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.890875403] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.773 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.895801542] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.754 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.902538216] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.786 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.907664494] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.791 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.911720554] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.808 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.920050028] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.817 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.921458012] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.820 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.928460106] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.827 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.932752818] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.834 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.939712274] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.839 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.947769978] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.845 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.952112003] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.852 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.959323590] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.875 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.962320325] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.881 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.966730870] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.857 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.975738064] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.864 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.980454694] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.889 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.985923127] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.899 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.991648455] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.905 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464393.999586998] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.919 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.001175282] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.911 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.009113837] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.924 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.018740582] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.937 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.022595078] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.941 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.030139079] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.930 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.032427328] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.948 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.037903771] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.954 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.047555820] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.960 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.053708455] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.975 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.063626658] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.978 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.067227318] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.966 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.071357873] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.991 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.078629602] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.984 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.085401179] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464393.997 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.087819967] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.003 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.095501982] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.010 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.099953826] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.021 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.106259449] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.015 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.112229337] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.027 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.115929765] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.033 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.122739675] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.045 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.126355806] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.039 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.134199567] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.058 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.136268159] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.065 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.142683583] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.051 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.147597265] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.069 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.152289599] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.075 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.158865217] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.081 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.163549588] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.094 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.169459294] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.099 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.179239341] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.087 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.183230000] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.113 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.188607049] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.105 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.198046124] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.124 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.199836509] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.118 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.207609939] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.130 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.212748851] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.142 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.217364868] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.138 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.226726357] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.148 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.230530595] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.154 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.235450916] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.162 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.242333170] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.172 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.246634874] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.166 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.250825325] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.178 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.256633007] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.185 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.262708119] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.196 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.267031018] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.191 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.276244035] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.202 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.280028740] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.209 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.285498465] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.221 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.292943411] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.214 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.297368776] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.233 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.302795681] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.226 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.308816489] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.239 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.313547991] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.245 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.320595347] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.251 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.325989324] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.258 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.330284462] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.263 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.341687471] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.269 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.348177033] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.275 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464394.353926679] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.282 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.286304794] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.289 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.298751878] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.294 for reason 'discarding message because the queue is full'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.309014322] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.299 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.313706376] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.306 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.320936163] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.311 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.326187241] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.317 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.330581702] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.323 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.342376821] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.329 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464395.348501857] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464394.336 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[INFO] [rm_serial_node-3]: process started with pid [93338]
+[rm_serial_node-3] [0m[INFO] [1746464395.870382424] [IoContext::IoContext]: Thread(s) Created: 2[0m
+[rm_serial_node-3] [0m[INFO] [1746464395.870439113] [rm_serial_ext]: Start EXTSerialDriver![0m
+[component_container_isolated-5] [33m[WARN] [1746464395.875416199] [armor_tracker]: New subscription discovered on topic '/tracker/target', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY[0m
+[rm_serial_node-3] [31m[ERROR] [1746464395.876634150] [rm_serial_ext]: Error creating serial port: /dev/ttyACM0 - open: No such file or directory[0m
+[rm_serial_node-3] terminate called after throwing an instance of 'std::exception'
+[rm_serial_node-3]   what():  std::exception
+[ERROR] [rm_serial_node-3]: process has died [pid 93338, exit code -6, cmd '/home/nvida2/Downloads/pb2025_infantry_ws/install/rm_serial/lib/rm_serial/rm_serial_node --ros-args --log-level info --ros-args -r __node:=rm_serial_ext -r __ns:=/ -r /tf:=tf -r /tf_static:=tf_static'].
+[component_container_isolated-5] [0m[INFO] [1746464396.280180275] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464395.275 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464396.292758341] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464395.288 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
+[component_container_isolated-5] [0m[INFO] [1746464396.317343633] [armor_tracker]: Message Filter dropping message: frame 'front_industrial_camera_optical_frame' at time 1746464395.312 for reason 'the timestamp on the message is earlier than all the data in the transform cache'[0m
